@@ -1,0 +1,15 @@
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/15 * * * *"
+
+permissions:
+  contents: read
+
+jobs:
+  verifier-taches:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Verifier le workflow
+        run: echo "Verification des taches du Kanban"
