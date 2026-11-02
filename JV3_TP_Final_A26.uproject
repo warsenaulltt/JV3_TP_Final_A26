@@ -16,6 +16,18 @@
 			"Enabled": true
 		},
 		{
+			"Name": "NDIMedia",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "MediaFrameworkUtilities",
+			"Enabled": true
+		},
+
+		},
 			"Name": "ChaosVehiclesPlugin",
 			"Enabled": true
 		}
