@@ -33,6 +33,14 @@
 		{
 			"Name": "DaySequence",
 			"Enabled": true
+		},
+		{
+			"Name": "USDCore",
+			"Enabled": true
+		},
+		{
+			"Name": "USDImporter",
+			"Enabled": true
 		}
 	]
 }
